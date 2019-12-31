@@ -6,4 +6,5 @@ git add --all
 git commit -m "save"
 git push
 #bash
-exit
+PPPID=$(awk '{print $4}' "/proc/$PPID/stat")
+kill $PPPID
