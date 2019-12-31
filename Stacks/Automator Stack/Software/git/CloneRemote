@@ -1,0 +1,38 @@
+#!/bin/bash
+cd "$(dirname "$0")"
+
+echo -n "Github: (yes)"
+read github
+
+if [ -z "$github" ] || [ "$github"="y" ] || [ "$github"="yes" ] || [ "$github"="1" ]; then
+  echo -n "Enter github account: "
+  read githubAccount
+
+  echo -n "Enter github package: "
+  read githubPackage
+
+  remoteUrl="https://github.com/$githubAccount/$githubPackage"
+else
+  echo -n "Enter remote-clone url: "
+  read remoteUrl
+fi
+
+echo -n "Enter branch name: (master) "
+read branch
+
+if [ -z "$branch" ]; then
+   branch="master"
+fi
+
+echo "git clone $remoteUrl -b $branch"
+
+git clone "$remoteUrl" -b "$branch"
+
+#go into directory
+if [ "$githubPackage" ]; then
+  echo "cd $githubPackage"
+  cd "$githubPackage"
+  ls
+fi
+
+bash

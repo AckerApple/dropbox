@@ -1,0 +1,4 @@
+#!/bin/bash
+apachectl -k restart
+echo 'apachectl -k restart'
+bash

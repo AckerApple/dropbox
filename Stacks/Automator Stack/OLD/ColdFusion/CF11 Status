@@ -1,0 +1,4 @@
+#!/bin/bash
+cd /Applications/ColdFusion11/cfusion/bin/
+./ColdFusion status
+bash

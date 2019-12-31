@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo -n "Username to kill apps: "
+read name
+sudo pkill -9 -u "$name"
+bash

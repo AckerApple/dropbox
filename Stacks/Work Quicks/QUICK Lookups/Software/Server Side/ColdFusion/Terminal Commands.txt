@@ -1,0 +1,11 @@
+cd \
+cd /Applications/ColdFusion10/cfusion/bin
+
+./coldfusion start
+./coldfusion stop
+./coldfusion restart
+./coldfusion status
+
+
+#Include "/Library/Server/Web/Data/Sites/VirginDataApache/*.conf"
+#Include "/Library/Server/Web/VirtualHosts/Coa/MacLocalHosts.conf"

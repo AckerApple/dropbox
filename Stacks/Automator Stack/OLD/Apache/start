@@ -1,0 +1,4 @@
+#!/bin/bash
+apachectl -k start
+echo 'apachectl -k start'
+bash

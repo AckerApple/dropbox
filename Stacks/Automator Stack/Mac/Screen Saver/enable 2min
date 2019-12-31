@@ -1,0 +1,4 @@
+#!/bin/bash
+defaults -currentHost write com.apple.screensaver idleTime 120
+echo "screen saver start after 2min"
+bash

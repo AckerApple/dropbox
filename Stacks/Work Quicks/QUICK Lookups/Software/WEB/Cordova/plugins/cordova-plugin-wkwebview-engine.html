@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+  <style>
+    body{font-family:Helvetica;}
+  </style>
+</head>
+<body>
+  <noscript style="color:red">Javascript is required but is turned off on your device</noscript>
+  <h1>cordova-plugin-ionic-webview</h1>
+  
+  <h2>PREINSTALL</h2>
+  <p>
+    If you already had <a href="https://github.com/apache/cordova-plugin-wkwebview-engine">apache/cordova-plugin-wkwebview-engine</a> installed, make sure that is removed before using this cordova-plugin-ionic-webview.
+  </p>
+  <textarea wrap="off" style="width:100%" rows="1">cordova plugin rm cordova-plugin-wkwebview-engine</textarea>
+
+  <h2>INSTALL</h2>
+  <textarea wrap="off" style="width:100%" rows="1">cordova plugin add cordova-plugin-ionic-webview --save</textarea>
+
+<textarea wrap="off" style="width:100%" rows="5">
+<feature name="CDVWKWebViewEngine">
+  <param name="ios-package" value="CDVWKWebViewEngine" />
+</feature>
+<preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
+<preference name="AllowBackForwardNavigationGestures" value="true" />
+</textarea>
+
+  <p style="text-align:center;">
+    <a href="https://github.com/ionic-team/cordova-plugin-ionic-webview">
+      GOTO IONIC DOCS
+    </a>
+  </p>
+</body>
+</html>

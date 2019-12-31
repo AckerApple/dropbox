@@ -1,0 +1,4 @@
+#!/bin/bash
+brew install awscli
+echo 'brew install awscli'
+bash

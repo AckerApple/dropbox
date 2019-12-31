@@ -1,0 +1,5 @@
+#!/bin/bash
+cd /Library/PostgreSQL/9.5
+sudo -u postgres ./pg_ctl stop -D ./data
+echo 'Postgres stop command issued'
+bash

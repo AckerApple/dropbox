@@ -1,0 +1,14 @@
+#!/bin/bash
+ssh-keygen
+
+ssh-add ~/.ssh/id_rsa
+
+#copy to clipboard
+cat ~/.ssh/id_rsa.pub | pbcopy
+echo 'Public key copied to clipboard'
+
+#$cd ~/.ssh/
+#open new file in finder
+#open .
+
+bash

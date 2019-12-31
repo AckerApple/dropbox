@@ -1,0 +1,4 @@
+#!/bin/bash
+cd ~/.ssh/id_rsa
+ssh-add -l
+bash

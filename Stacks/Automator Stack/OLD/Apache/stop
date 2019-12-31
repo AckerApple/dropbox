@@ -1,0 +1,4 @@
+#!/bin/bash
+apachectl -k stop
+echo 'apachectl -k stop'
+bash

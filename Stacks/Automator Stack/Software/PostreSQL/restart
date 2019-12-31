@@ -1,0 +1,5 @@
+#!/bin/bash
+cd /Library/PostgreSQL/9.5/bin
+sudo -u postgres ./pg_ctl restart -D /Library/PostgreSQL/9.5/data
+echo 'Postgres restart issued'
+bash

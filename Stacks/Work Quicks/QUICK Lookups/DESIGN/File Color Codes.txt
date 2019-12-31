@@ -1,0 +1,7 @@
+Orange = Of Importance
+Yellow = Recently Modified
+Purble = Design
+Blue = Core
+Grey = Low Priority / Deprecated
+Red = Ignore / Deprecated
+Green = Data OR Up-to-date

@@ -1,0 +1,10 @@
+*.css.map
+*.js.map
+node_modules
+npm-debug.log
+logs
+.DS_Store
+daemon
+updaters
+*.pem
+secrets.json

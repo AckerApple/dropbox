@@ -1,0 +1,8 @@
+#!/bin/bash
+echo -n "NPM package name [ENTER]: "
+read name
+echo ""
+echo "$ npm view $name@beta version"
+echo ""
+npm view "$name"@beta version
+bash

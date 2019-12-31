@@ -1,0 +1,8 @@
+#!/bin/bash
+#this file should be placed within pathfolder with hidden files
+cd "$(dirname "$0")"
+find "$(dirname "$0")" -name '._*' -type f -delete
+find "$(dirname "$0")" -name '.*' -type f -delete
+find "$(dirname "$0")" -name 'deleteHiddens.command' -type f -delete
+bash
+

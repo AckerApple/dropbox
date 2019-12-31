@@ -1,0 +1,22 @@
+sudo reboot
+
+sudo shutdown now
+
+--show IP address
+ip addr show
+
+
+
+--create alias "screensaversalias" in current working directory to somewhere else
+ln -s /home/pi/RetroPie/splashscreens screensaversalias
+
+
+--list everything including hidden files/folders
+ls -ap | egrep "*"
+
+
+--list anything hidden
+ls -ap | egrep "^\.[^./]"
+
+--delete anything hidden
+rm -rf .[^./] .??*

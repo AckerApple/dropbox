@@ -1,0 +1,7 @@
+
+COMMAND + CONTROL + Q = LOGOUT
+
+
+Activity Monitor
+----------------
+COMMAND + OPTION + Q = Quit selected process

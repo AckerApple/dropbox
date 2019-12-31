@@ -1,0 +1,8 @@
+#!/bin/bash
+echo -n "Enter a port: "
+read portNum
+sudo lsof -i :"$portNum"
+echo ""
+echo "sudo lsof -i :""$portNum"
+echo ""
+bash

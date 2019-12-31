@@ -1,0 +1,11 @@
+vi cheat sheet
+
+x = delete character
+
+i = start insert edit
+	esc key to stop
+
+dd = delete line
+
+:quit
+:exit

@@ -1,0 +1,4 @@
+#!/bin/bash
+defaults -currentHost write com.apple.screensaver idleTime 0
+echo "screen saver disabled"
+bash

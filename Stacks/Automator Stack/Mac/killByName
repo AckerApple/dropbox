@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo -n "Service name to kill: "
+read name
+sudo pkill -f "$name"
+bash

@@ -1,0 +1,8 @@
+#!/bin/bash
+echo -n "NPM package name [ENTER]: "
+read name
+echo ""
+echo "$ npm list -g $name"
+echo ""
+npm list -g "$name"
+bash

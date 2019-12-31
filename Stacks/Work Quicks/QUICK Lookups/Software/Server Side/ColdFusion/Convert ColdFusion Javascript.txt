@@ -1,0 +1,6 @@
+JAVASCRIPT						COLDFUSION
+
+Math.max(n,nn)					max(n,nn)
+Math.min(n,nn)					min(n,nn)
+Math.abs(n)						abs(n)
+Math.ceil(n)					ceiling(n)

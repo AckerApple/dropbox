@@ -1,0 +1,8 @@
+#!/bin/bash
+cd "$(dirname "$0")"
+git pull --ff-only
+git status
+git add --all
+git commit -m "save"
+git push
+bash

@@ -1,0 +1,14 @@
+#!/bin/bash
+cd "$(dirname "$0")"
+cd ../../
+git status
+echo ""
+echo "Which file to undelete?"
+echo -n "Enter File or pattern [ENTER]: "
+read name
+git checkout $(git rev-list -n 1 HEAD -- "$name")^ -- "$name"
+echo ""
+echo ""
+echo "git checkout $(git rev-list -n 1 HEAD -- $name)^ -- $name"
+echo ""
+bash

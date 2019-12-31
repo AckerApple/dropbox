@@ -1,0 +1,5 @@
+#!/bin/bash
+cd /Library/PostgreSQL/9.5/bin
+sudo -u postgres ./pg_ctl status -D /Library/PostgreSQL/9.5/data
+echo 'Postgres status issued'
+bash

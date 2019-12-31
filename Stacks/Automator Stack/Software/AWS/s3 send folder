@@ -1,0 +1,4 @@
+#!/bin/bash
+aws configure
+echo 'aws configure'
+bash

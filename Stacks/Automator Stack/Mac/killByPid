@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo -n "Service PID to kill: "
+read name
+kill -KILL "$name"
+bash
