@@ -2,7 +2,7 @@
 --select every string based table-column with dyanmic search
 --take results and concat together (remove first union all)
 WITH VALS as (
-        select 'string-to-search-for-case-sens' as t from Sysibm.sysindexes fetch first 1 rows only
+        select 'search-string-here' as t from Sysibm.sysindexes fetch first 1 rows only
 )
 SELECT  c.coltype,
         (
