@@ -1,4 +1,4 @@
-TERMINAL COMMANDS
+# TERMINAL COMMANDS
 
 - Remove entire folder and contents
 $ rm -rf ./folder-path
@@ -26,7 +26,11 @@ $ mv abc.txt xyz.txt
 
 
 
+# MAC
 
+- Add bash aliases:
+nano ~/.zshrc
+source ~/.zshrc
 
 - Flush DNS OS X Mavericks
 $ dscacheutil -flushcache;sudo killall -HUP mDNSResponder

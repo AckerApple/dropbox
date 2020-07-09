@@ -1,0 +1,5 @@
+#!/bin/bash
+# For Mac Catalina 10.15+
+cd "$(dirname "$0")"
+nano ~/.zshrc
+bash
